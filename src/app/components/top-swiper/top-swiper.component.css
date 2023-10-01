@@ -1,10 +1,10 @@
 .product {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .slider-wrap {
   position: relative;
   overflow: hidden;
-  height: 150px;
+  height: 100px;
 }
 .slider-main {
   position: absolute;
@@ -13,10 +13,11 @@
 .item {
   position: relative;
   display: inline-block;
-  width: 312px;
-  height: 150px;
+  width: 100px;
+  height: 70px;
   background: red;
   margin: 0 12px;
+  border-radius: 50%;
 }
 .text {
   position: absolute;
@@ -29,13 +30,33 @@
 }
 .prev {
   position: absolute;
-  left: 33px;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 5px;
+  top: 20%;
+  /* transform: translate(-50%, -50%);  */
 }
 .next {
   position: absolute;
-  right: 100px;
+  right: 10px;
   top: 50%;
   transform: translate(-50%, -50%);
 }
+/* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */

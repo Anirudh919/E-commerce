@@ -1,4 +1,11 @@
-img{
+img {
   width: 20rem;
   height: 30rem;
+}
+
+span:hover {
+  height: 100px;
+  width: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10% 10%;
 }
